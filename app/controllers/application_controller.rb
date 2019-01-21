@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
   
-  get '' do
+  get 'articles' do
     
   end
 end
