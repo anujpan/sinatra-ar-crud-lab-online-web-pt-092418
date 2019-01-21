@@ -20,7 +20,7 @@ class ApplicationController < Sinatra::Base
     redirect "/articles/#{@article.id}"
   end
 
-  get 'articles' do
+  get '/articles' do
     erb :index
   end
   
