@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
   
-  get '/index' do
-    erb :index
+  get '' do
+    
   end
 end
