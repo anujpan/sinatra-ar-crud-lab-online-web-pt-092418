@@ -26,6 +26,6 @@ class ApplicationController < Sinatra::Base
   end
   
   get 'articles' do
-    
+    erb :index
   end
 end
