@@ -35,7 +35,7 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
   
-  post '' do
+  post 'articles/:id/edit' do
     
   end
   
