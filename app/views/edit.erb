@@ -3,6 +3,6 @@
 
 <form method="post" action="/articles/<%= #{@article.id} %>">
   <input id="title" name="title" value="<%= @article.title %>" />
-  <input id="content" name="content" />
+  <input id="content" name="content" value="<%= @article.content %>" />
   <input id="submit" type="submit" />
 </form>
