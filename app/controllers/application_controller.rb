@@ -30,8 +30,5 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
   
-  get '/articles/:id/edit'
-    erb :edit
-  end
   
 end
