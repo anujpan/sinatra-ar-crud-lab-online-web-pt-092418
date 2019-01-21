@@ -49,7 +49,7 @@ class ApplicationController < Sinatra::Base
     @article = Article.find_by_id(params[:id])
     @article.delete
     
-    redirect to '/articles'
+    erb :index
   end
   
 end
